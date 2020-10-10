@@ -4,7 +4,8 @@ import java.io.InputStreamReader;
 //soma dos números impares
 public class Exemplo63 {
 	public static void main(String[] args) {
-		final int tamanho = 5;
+		//declarando variável
+		final int tamanho = 5; //final = constante: numero não altera
 		int vetor[] = new int[tamanho];
 		BufferedReader entrada;
 		entrada = new BufferedReader(new InputStreamReader(System.in));
